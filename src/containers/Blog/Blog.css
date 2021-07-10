@@ -1,7 +1,26 @@
-.Posts {
-    display: flex;
-    flex-flow: row wrap;
+
+header{
+    align-items: center;
     justify-content: center;
-    width: 80%;
-    margin: auto;
+    text-align: center;
+    background-color: bisque;
+    border-bottom: black 1px solid;
+}
+ul{
+    list-style: none;
+    /* align-items: center; */
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover,
+a:active{
+    color: coral;
 }
