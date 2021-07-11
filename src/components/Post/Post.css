@@ -11,7 +11,8 @@
 
 .Post:hover,
 .Post:active {
-    background-color: #C0DDF5;
+    background-color: #ebf0f3;
+    box-shadow: #ccc 10px;
 }
 
 .Author {
