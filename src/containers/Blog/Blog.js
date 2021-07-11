@@ -5,6 +5,7 @@ import './Blog.css';
 import { Route, NavLink,Switch } from 'react-router-dom';
 import Newpost from "./NewPost/NewPost";
 import FullPost from "./FullPost/FullPost"
+import Error from './Error/Error'
 class Blog extends Component {
 
     render () {
@@ -32,6 +33,7 @@ class Blog extends Component {
                         <Newpost />
                     </Route>
                     <Route path="/post/:id" exact component={FullPost} />
+                    <Route component={Error} />
                 </Switch>
             </div>
         );
